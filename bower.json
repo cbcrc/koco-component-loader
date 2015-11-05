@@ -1,0 +1,34 @@
+{
+  "name": "koco-component-loader",
+  "version": "0.1.0",
+  "authors": [
+    "Maxime Séguin"
+  ],
+  "description": "A custom component loader for koco framework (knockout components).",
+  "main": [
+    "src/component-loader.js"
+  ],
+  "keywords":[
+    "koco",
+    "koco-router",
+    "knockout",
+    "components"
+  ],
+  "private": false,
+  "moduleType": [
+    "amd"
+  ],
+  "homepage": "https://github.com/cbcrc/koco-component-loader",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "knockout": "^3.3.0",
+    "lodash": "^3.0.0"
+  }
+}

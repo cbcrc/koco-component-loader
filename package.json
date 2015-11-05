@@ -1,0 +1,19 @@
+{
+  "name": "koco-component-loader",
+  "version": "0.1.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbcrc/koco-component-loader.git"
+  },
+  "author": "Maxime Séguin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cbcrc/koco-component-loader/issues"
+  },
+  "homepage": "https://github.com/cbcrc/koco-component-loader"
+}
