@@ -56,7 +56,7 @@ define(['knockout', 'lodash'],
             var templateRequirePath;
 
             if (componentConfig.template) {
-                templateRequirePath = 'text!' + componentConfig.template + '.html';
+                templateRequirePath = 'text!' + componentConfig.template;
             } else {
                 templateRequirePath = 'text!' + requirePath + '.html';
             }
