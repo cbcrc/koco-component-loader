@@ -1,19 +1,25 @@
 {
-  "name": "koco-component-loader",
-  "version": "0.1.1",
-  "description": "",
-  "main": "",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cbcrc/koco-component-loader.git"
-  },
-  "author": "Maxime Séguin",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cbcrc/koco-component-loader/issues"
-  },
-  "homepage": "https://github.com/cbcrc/koco-component-loader"
+    "name": "koco-component-loader",
+    "version": "0.1.1",
+    "authors": [
+        "Maxime Séguin"
+    ],
+    "description": "A custom component loader for koco framework (knockout components).",
+    "main": "src/component-loader.js",
+    "keywords": [
+        "koco",
+        "koco-router",
+        "knockout",
+        "components"
+    ],
+    "private": false,
+    "homepage": "https://github.com/cbcrc/koco-component-loader",
+    "license": "MIT",
+    "scripts": {
+        "build": "rm -rf dist && mkdir dist && cp -r src/* dist && rm -rf dist/*.js && babel src --out-dir dist --modules umd --presets es2015,stage-0"
+    },
+    "dependencies": {
+        "knockout": "^3.3.0",
+        "lodash": "^3.0.0"
+    }
 }
