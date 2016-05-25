@@ -8,7 +8,6 @@
   "main": "src/component-loader.js",
   "keywords": [
     "koco",
-    "koco-router",
     "knockout",
     "components"
   ],
@@ -19,7 +18,13 @@
     "build": "rm -rf dist && mkdir dist && cp -r src/* dist && rm -rf dist/*.js && babel src --out-dir dist --modules umd --presets es2015,stage-0"
   },
   "dependencies": {
-    "knockout": "^3.3.0",
-    "lodash": "^3.0.0"
+    "knockout": "^3.4.0",
+    "koco": "^1.0.0",
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0"
   }
 }
